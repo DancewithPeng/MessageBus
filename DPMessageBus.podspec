@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "MessageBus"
+  spec.name         = "DPMessageBus"
   spec.version      = "1.0"
   spec.summary      = "消息总线"
 
