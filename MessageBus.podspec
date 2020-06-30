@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MessageBus"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0"
   spec.summary      = "消息总线"
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
                     用于发送简单消息的消息总线
                    DESC
 
-  spec.homepage     = "http://192.168.1.60:81/iOS/Bases/MessageBus.git"
+  spec.homepage     = "https://github.com/DancewithPeng/MessageBus.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -40,7 +40,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.license      = "Copyright"
-  spec.license      = { :type => "Copyright", :file => "LICENSE" }
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -53,7 +53,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "张鹏" => "zhangpeng@kefeizhu.com" }
+  spec.author             = { "张鹏" => "dancewithpeng@gmail.com" }
   # Or just: spec.author    = "张鹏"
   # spec.authors            = { "张鹏" => "zhangpeng@kefeizhu.com" }
   # spec.social_media_url   = "https://twitter.com/张鹏"
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://192.168.1.60:81/iOS/Bases/MessageBus.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/DancewithPeng/MessageBus.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
