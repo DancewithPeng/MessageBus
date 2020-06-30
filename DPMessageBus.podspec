@@ -55,7 +55,6 @@ Pod::Spec.new do |spec|
 
   spec.author             = { "张鹏" => "dancewithpeng@gmail.com" }
   # Or just: spec.author    = "张鹏"
-  # spec.authors            = { "张鹏" => "zhangpeng@kefeizhu.com" }
   # spec.social_media_url   = "https://twitter.com/张鹏"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
