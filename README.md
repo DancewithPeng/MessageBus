@@ -8,8 +8,18 @@
 
 ## 导入
 
+### Swift Package
+
+```swift
+.package(url: "https://github.com/DancewithPeng/MessageBus", .upToNextMinor(from: "1.0.1"))
+```
+
+
+
+### Cocoapods
+
 ```ruby
-pod 'DPMessageBus', '~> 1.0'
+pod 'DPMessageBus', '~> 1.0.1'
 ```
 
 

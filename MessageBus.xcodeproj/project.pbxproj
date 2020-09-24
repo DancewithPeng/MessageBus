@@ -19,7 +19,6 @@
 		6E2AB0A32269ADE000725922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E2AB0A12269ADE000725922 /* LaunchScreen.storyboard */; };
 		6E2AB0A62269ADE000725922 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2AB0A52269ADE000725922 /* main.m */; };
 		6E2AB0AC2269AE1B00725922 /* MessageBusTester.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2AB0AB2269AE1B00725922 /* MessageBusTester.m */; };
-		6E2AB0AE2269AE6200725922 /* MessageBus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2AB07822699AD000725922 /* MessageBus.framework */; };
 		6E2AB0B12269AFBE00725922 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2AB0B02269AFBE00725922 /* MyViewController.m */; };
 		6E2AB0B92269BB4C00725922 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2AB0B82269BB4C00725922 /* AppDelegate.swift */; };
 		6E2AB0BB2269BB4C00725922 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2AB0BA2269BB4C00725922 /* ViewController.swift */; };
@@ -27,7 +26,23 @@
 		6E2AB0C02269BB4C00725922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E2AB0BF2269BB4C00725922 /* Assets.xcassets */; };
 		6E2AB0C32269BB4C00725922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E2AB0C12269BB4C00725922 /* LaunchScreen.storyboard */; };
 		6E2AB0C82269BC7000725922 /* MessageBus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2AB07822699AD000725922 /* MessageBus.framework */; };
+		6EBD90A7251C6CBE009497BD /* MessageBus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2AB07822699AD000725922 /* MessageBus.framework */; };
+		6EBD90A8251C6CBE009497BD /* MessageBus.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2AB07822699AD000725922 /* MessageBus.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6EBD90A9251C6CBE009497BD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6EBD90A8251C6CBE009497BD /* MessageBus.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6E2AB07822699AD000725922 /* MessageBus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MessageBus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,6 +73,7 @@
 		6E2AB0BF2269BB4C00725922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E2AB0C22269BB4C00725922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E2AB0C42269BB4C00725922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E641A2D251C45BA00897712 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E2AB0AE2269AE6200725922 /* MessageBus.framework in Frameworks */,
+				6EBD90A7251C6CBE009497BD /* MessageBus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +168,7 @@
 		6E2AB0AD2269AE6200725922 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6E641A2D251C45BA00897712 /* Package.swift */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -210,6 +227,7 @@
 				6E2AB0902269ADE000725922 /* Sources */,
 				6E2AB0912269ADE000725922 /* Frameworks */,
 				6E2AB0922269ADE000725922 /* Resources */,
+				6EBD90A9251C6CBE009497BD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -548,6 +566,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MNYYTRW888;
 				INFOPLIST_FILE = MessageBusExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -565,6 +584,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MNYYTRW888;
 				INFOPLIST_FILE = MessageBusExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -582,6 +602,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MNYYTRW888;
 				INFOPLIST_FILE = "MessageBusExample-Swift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -602,6 +623,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MNYYTRW888;
 				INFOPLIST_FILE = "MessageBusExample-Swift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
