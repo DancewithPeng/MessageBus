@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "DPMessageBus"
-  spec.version      = "1.0"
+  spec.version      = "1.0.1"
   spec.summary      = "消息总线"
 
   # This description is used to generate tags and improve search results.
