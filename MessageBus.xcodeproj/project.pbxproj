@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6E2AB07D22699AD000725922 /* MessageBus.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E2AB07B22699AD000725922 /* MessageBus.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E2AB08A2269A29D00725922 /* MBMessageBus.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E2AB0882269A29D00725922 /* MBMessageBus.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E2AB08B2269A29D00725922 /* MBMessageBus.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2AB0892269A29D00725922 /* MBMessageBus.m */; };
-		6E2AB08E2269A3D200725922 /* MBWeakObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E2AB08C2269A3D200725922 /* MBWeakObject.h */; };
-		6E2AB08F2269A3D200725922 /* MBWeakObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2AB08D2269A3D200725922 /* MBWeakObject.m */; };
 		6E2AB0982269ADE000725922 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2AB0972269ADE000725922 /* AppDelegate.m */; };
 		6E2AB09B2269ADE000725922 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2AB09A2269ADE000725922 /* ViewController.m */; };
 		6E2AB09E2269ADE000725922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E2AB09C2269ADE000725922 /* Main.storyboard */; };
@@ -25,9 +20,6 @@
 		6E2AB0BE2269BB4C00725922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E2AB0BC2269BB4C00725922 /* Main.storyboard */; };
 		6E2AB0C02269BB4C00725922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E2AB0BF2269BB4C00725922 /* Assets.xcassets */; };
 		6E2AB0C32269BB4C00725922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E2AB0C12269BB4C00725922 /* LaunchScreen.storyboard */; };
-		6E2AB0C82269BC7000725922 /* MessageBus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2AB07822699AD000725922 /* MessageBus.framework */; };
-		6EBD90A7251C6CBE009497BD /* MessageBus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2AB07822699AD000725922 /* MessageBus.framework */; };
-		6EBD90A8251C6CBE009497BD /* MessageBus.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2AB07822699AD000725922 /* MessageBus.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,7 +29,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6EBD90A8251C6CBE009497BD /* MessageBus.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,7 +36,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6E2AB07822699AD000725922 /* MessageBus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MessageBus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E2AB07B22699AD000725922 /* MessageBus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageBus.h; sourceTree = "<group>"; };
 		6E2AB07C22699AD000725922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E2AB0882269A29D00725922 /* MBMessageBus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBMessageBus.h; sourceTree = "<group>"; };
@@ -77,18 +67,10 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6E2AB07522699AD000725922 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6E2AB0912269ADE000725922 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EBD90A7251C6CBE009497BD /* MessageBus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +78,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E2AB0C82269BC7000725922 /* MessageBus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,7 +98,6 @@
 		6E2AB07922699AD000725922 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6E2AB07822699AD000725922 /* MessageBus.framework */,
 				6E2AB0942269ADE000725922 /* MessageBusExample.app */,
 				6E2AB0B62269BB4B00725922 /* MessageBusExample-Swift.app */,
 			);
@@ -188,38 +168,7 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		6E2AB07322699AD000725922 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6E2AB08A2269A29D00725922 /* MBMessageBus.h in Headers */,
-				6E2AB08E2269A3D200725922 /* MBWeakObject.h in Headers */,
-				6E2AB07D22699AD000725922 /* MessageBus.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		6E2AB07722699AD000725922 /* MessageBus */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6E2AB08022699AD000725922 /* Build configuration list for PBXNativeTarget "MessageBus" */;
-			buildPhases = (
-				6E2AB07322699AD000725922 /* Headers */,
-				6E2AB07422699AD000725922 /* Sources */,
-				6E2AB07522699AD000725922 /* Frameworks */,
-				6E2AB07622699AD000725922 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MessageBus;
-			productName = MessageBus;
-			productReference = 6E2AB07822699AD000725922 /* MessageBus.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		6E2AB0932269ADE000725922 /* MessageBusExample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E2AB0A72269ADE000725922 /* Build configuration list for PBXNativeTarget "MessageBusExample" */;
@@ -265,9 +214,6 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "dancewithpeng@gmail.com";
 				TargetAttributes = {
-					6E2AB07722699AD000725922 = {
-						CreatedOnToolsVersion = 10.2.1;
-					};
 					6E2AB0932269ADE000725922 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -289,7 +235,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6E2AB07722699AD000725922 /* MessageBus */,
 				6E2AB0932269ADE000725922 /* MessageBusExample */,
 				6E2AB0B52269BB4B00725922 /* MessageBusExample-Swift */,
 			);
@@ -297,13 +242,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6E2AB07622699AD000725922 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6E2AB0922269ADE000725922 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -327,15 +265,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6E2AB07422699AD000725922 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6E2AB08B2269A29D00725922 /* MBMessageBus.m in Sources */,
-				6E2AB08F2269A3D200725922 /* MBWeakObject.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6E2AB0902269ADE000725922 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -513,54 +442,6 @@
 			};
 			name = Release;
 		};
-		6E2AB08122699AD000725922 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MessageBus/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = DP.iOS.Component.MessageBus;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		6E2AB08222699AD000725922 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MessageBus/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = DP.iOS.Component.MessageBus;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		6E2AB0A82269ADE000725922 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -647,15 +528,6 @@
 			buildConfigurations = (
 				6E2AB07E22699AD000725922 /* Debug */,
 				6E2AB07F22699AD000725922 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6E2AB08022699AD000725922 /* Build configuration list for PBXNativeTarget "MessageBus" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6E2AB08122699AD000725922 /* Debug */,
-				6E2AB08222699AD000725922 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

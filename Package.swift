@@ -22,6 +22,14 @@ let package = Package(
             name: "DPMessageBus",
             dependencies: [],
             path: "MessageBus/Sources",
-            publicHeadersPath: "MessageBus/Publics"),
+            exclude: []
+        ),
+        .testTarget(
+            name: "DPMessageBusTests",
+            dependencies: [
+                "DPMessageBus"
+            ],
+            path: "MessageBusTests/MessageBusTests"
+        )
     ]
 )
